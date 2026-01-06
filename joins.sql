@@ -32,6 +32,6 @@ INNER JOIN users b ON a.referred_by_id = b.id;
 --In referral-based relationships, store the referrer’s id in the same table.
 --Use aliases like a and b to differentiate the two instances of the same table.
 
-
+-- Chetan Urf Ishant 
 
 
