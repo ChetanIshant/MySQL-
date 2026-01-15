@@ -5,7 +5,7 @@ A Database Management System (DBMS) is software that interacts with end users, a
 */
 CREATE DATABASE sql_first_database; --creating a database
 
-USE startersql; --to use the same database for further queries
+USE startersql; --to use the same database for further queries    
 
 CREATE TABLE  default_table(
     id INT AUTO_INCREMENT PRIMARY KEY,
