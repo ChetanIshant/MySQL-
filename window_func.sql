@@ -40,3 +40,7 @@ Common window functions include ROW_NUMBER(), RANK(), SUM(), AVG(), LAG(), and L
 
 -- Window functions are SQL functions that perform calculations across a set of rows related to the current row while retaining individual row details
 
+-- Window functions in SQL perform calculations across related rows while keeping each row’s identity. 
+-- Using the OVER() clause, they support ranking, running totals, and comparisons within partitions 
+-- of data without grouping results like GROUP BY does.
+
