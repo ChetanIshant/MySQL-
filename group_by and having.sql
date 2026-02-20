@@ -43,6 +43,10 @@ For example, we can group employees by department and calculate the total salary
 for each department. HAVING is used to filter these groups after aggregation. 
 Unlike WHERE, which filters rows before grouping, HAVING works on aggregated results. 
 For instance, it can be used to display only those departments whose total salary exceeds a certain amount.
+
+GROUP BY in SQL is used to combine rows that share common values and apply aggregate functions like COUNT, SUM, 
+or AVG to each group. HAVING filters the grouped results based on aggregate conditions. 
+While WHERE filters rows before grouping, HAVING works after aggregation, making it essential for summary-based filtering
 */
 
 --Chetan Urf Ishant
