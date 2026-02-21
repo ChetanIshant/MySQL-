@@ -32,6 +32,12 @@ INNER JOIN users b ON a.referred_by_id = b.id;
 --In referral-based relationships, store the referrer’s id in the same table.
 --Use aliases like a and b to differentiate the two instances of the same table.
 
+/*
+SQL joins are used to combine data from two or more tables based on a related column. 
+They help retrieve meaningful information stored across relational tables. 
+Common types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, each determining how matching and non-matching records are handled in the final result set.
+*/
+
 -- Chetan Urf Ishant 
 
 
