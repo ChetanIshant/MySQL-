@@ -7,6 +7,11 @@ SQL (Structured Query Language) is a standard language used to manage and manipu
 It enables users to perform operations such as data retrieval (SELECT), insertion (INSERT), updating (UPDATE), and deletion (DELETE). 
 SQL also supports schema definition through DDL commands like CREATE and ALTER, and transaction control using COMMIT and ROLLBACK. 
 It operates on structured data organized in tables with rows and columns.
+
+SQL (Structured Query Language) is a declarative language used to interact with relational database management systems (RDBMS) such as MySQL, PostgreSQL, and SQL Server. 
+It supports Data Query Language (DQL), Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL). 
+SQL enables indexing, constraints (PRIMARY KEY, FOREIGN KEY), joins, subqueries, views, and stored procedures. 
+It follows ACID properties to ensure transaction reliability and data integrity.
 */
 
 CREATE DATABASE sql_first_database; --creating a database
