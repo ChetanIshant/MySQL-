@@ -14,4 +14,10 @@ DEFAULT             Sets a default value
 PRIMARY KEY         Uniquely identifies each row
 AUTO_INCREMENT      Automatically generates unique numbers
 
+Constraints are rules applied to data to maintain accuracy, consistency, and integrity in a system, especially in databases. 
+They restrict the type of data that can be inserted or updated in a table. 
+Common constraints include PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, and CHECK. 
+These ensure valid relationships between tables, prevent duplicate entries, and enforce specific conditions, 
+helping maintain reliable and structured data throughout the application.
+
 --Covered all the major constraints of SQL
