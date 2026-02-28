@@ -16,3 +16,12 @@ Select name,gender, IF(gender='Female','Yes','No') AS is_female from newyear_dat
 
 
 -- Covered the functions of SQL which are widely used.
+
+/*
+SQL functions are built-in routines used to perform calculations, manipulate data, and return specific results within queries. 
+They help simplify complex operations and improve query readability. 
+SQL functions are mainly classified into two types: Single-row functions and Aggregate functions. 
+Single-row functions operate on each row individually (e.g., UPPER(), LOWER(), ROUND()), 
+while aggregate functions work on multiple rows and return a single value (e.g., SUM(), COUNT(), AVG(), MAX(), MIN()). 
+They are commonly used with SELECT, WHERE, and GROUP BY clauses to process and analyze data efficiently.
+*/
