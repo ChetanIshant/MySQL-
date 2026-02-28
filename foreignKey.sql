@@ -55,6 +55,8 @@ Use ON DELETE to control what happens when the parent row is deleted
 A foreign key in SQL is a column (or combination of columns) in one table that establishes a relationship with the primary key of another table. 
 It ensures referential integrity, meaning the value in the foreign key column must match an existing value in the referenced table or be NULL (if allowed). 
 Foreign keys help maintain consistent and accurate data across related tables.
+They also support actions like ON DELETE CASCADE and ON UPDATE CASCADE, which automatically update or delete related records, 
+preserving database consistency and preventing orphan records.
 */
 
 -- Chetan Urf Ishant
