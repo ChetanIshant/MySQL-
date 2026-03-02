@@ -35,6 +35,15 @@ Comparing current row with previous/next row (LAG, LEAD)
 Window functions in SQL perform calculations across a set of related rows while keeping each row intact. 
 They use the OVER() clause with PARTITION BY and ORDER BY to compute aggregates, rankings, or comparisons. 
 Common window functions include ROW_NUMBER(), RANK(), SUM(), AVG(), LAG(), and LEAD(), and are widely used in analytics and reporting queries.
+
+Window functions in SQL perform calculations across a set of table rows that are related to the current row, without collapsing the result like GROUP BY does. 
+They use the OVER() clause to define a “window” of rows.
+
+Common examples include:
+ROW_NUMBER() – assigns unique row numbers
+RANK() / DENSE_RANK() – ranking values
+SUM() / AVG() – running totals or moving averages
+Window functions are powerful for analytics, reporting, cumulative sums, and comparing each row with others in the same partition, while still retaining individual row details.
 */
 
 
