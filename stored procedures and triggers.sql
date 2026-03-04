@@ -94,6 +94,12 @@ LIMIT 5 OFFSET 10;
 --Cannot be rolled back
 
 /*
+Stored Procedures are precompiled SQL programs stored in the database that execute a set of queries when called. They improve performance, reusability, and security.
+Triggers are special SQL procedures that automatically execute when specific events occur in a table, such as INSERT, UPDATE, or DELETE, 
+helping enforce rules, maintain data integrity, and automate actions within the database.
+/*
+
+/*
 This is all about SQL 
 I hope this repo helps you in understanding the concepts of SQL 
 I have written all these queries at MySQL WorkBench
