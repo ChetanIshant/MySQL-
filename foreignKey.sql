@@ -73,6 +73,17 @@ CREATE TABLE Employee (
 );
 
 --Inserting Data
+INSERT INTO Department VALUES (1, 'HR');
+INSERT INTO Department VALUES (2, 'IT');
+
+INSERT INTO Employee VALUES (101, 'Rahul', 1);
+INSERT INTO Employee VALUES (102, 'Aman', 2);
+
+--Joining Tables
+SELECT e.emp_name, d.dept_name
+FROM Employee e
+JOIN Department d
+ON e.dept_id = d.dept_id;
 
 */
 
