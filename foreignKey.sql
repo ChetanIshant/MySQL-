@@ -57,6 +57,23 @@ It ensures referential integrity, meaning the value in the foreign key column mu
 Foreign keys help maintain consistent and accurate data across related tables.
 They also support actions like ON DELETE CASCADE and ON UPDATE CASCADE, which automatically update or delete related records, 
 preserving database consistency and preventing orphan records.
+
+SOME Examples for better understanding:
+--Creating Tables with Foreign Key
+CREATE TABLE Department (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(50)
+);
+
+CREATE TABLE Employee (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES Department(dept_id)
+);
+
+--Inserting Data
+
 */
 
 -- Chetan Urf Ishant
