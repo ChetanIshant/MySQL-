@@ -70,6 +70,14 @@ WHERE id = 3; --example sytax
 --delete all rows but the table structure remains same:
 DELETE FROM users;
 
+
+/*
+SQL (Structured Query Language) is used to manage and manipulate relational databases. 
+It allows users to create, read, update, and delete data using commands like SELECT, INSERT, UPDATE, and DELETE. 
+SQL also supports defining database structures with CREATE, ALTER, and DROP statements. 
+Features like joins, constraints, indexes, and functions help maintain data integrity and perform efficient data retrieval.
+*/
+
 /*
 "I hope the shared content is clear and informative."
 Chetan Urf Ishant 
