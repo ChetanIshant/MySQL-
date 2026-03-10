@@ -85,6 +85,11 @@ A View in SQL is a virtual table created from the result of a SELECT query.
 It does not store data physically but displays data from one or more tables. 
 Views help simplify complex queries, improve security by restricting access to certain columns, and provide a consistent way to access frequently used query results.
 
+Indexes:
+An Index in SQL is a database object used to improve the speed of data retrieval operations on a table. 
+It works like an index in a book, allowing the database to find rows quickly without scanning the entire table. 
+Indexes enhance query performance but can slightly slow down insert and update operations.
+
 
 */
 
