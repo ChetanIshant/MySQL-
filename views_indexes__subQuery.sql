@@ -90,7 +90,10 @@ An Index in SQL is a database object used to improve the speed of data retrieval
 It works like an index in a book, allowing the database to find rows quickly without scanning the entire table. 
 Indexes enhance query performance but can slightly slow down insert and update operations.
 
-
+SubQueries:
+A Subquery is a query nested inside another SQL query. 
+It is used to retrieve data that will be used by the main query for filtering or calculations. 
+Subqueries can appear in SELECT, FROM, or WHERE clauses and help break complex queries into smaller, manageable parts for better readability and logic.
 */
 
 
