@@ -79,5 +79,14 @@ WHERE referred_by_id IN (SELECT id FROM users WHERE salary > 75000);
 
 -- Subqueries are powerful tools when filtering based on computed or dynamic conditions.
 
+/*
+Views:
+A View in SQL is a virtual table created from the result of a SELECT query. 
+It does not store data physically but displays data from one or more tables. 
+Views help simplify complex queries, improve security by restricting access to certain columns, and provide a consistent way to access frequently used query results.
+
+
+*/
+
 
 -- Chetan Urf Ishant
