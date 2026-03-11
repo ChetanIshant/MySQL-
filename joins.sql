@@ -38,6 +38,25 @@ They help retrieve meaningful information stored across relational tables.
 Common types include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, each determining how matching and non-matching records are handled in the final result set.
 */
 
+--This query joins two tables (employees and departments) to display employee details along with their department names.
+SELECT e.employee_id, e.name, d.department_name
+FROM employees e
+JOIN departments d
+ON e.department_id = d.department_id;
+
+--This query groups employees by department and calculates the total salary paid in each department.
+SELECT department_id, SUM(salary) AS total_salary
+FROM employees
+GROUP BY department_id;
+
+--This query uses a subquery to find employees whose salary is greater than the average salary of all employees.
+SELECT name, salary
+FROM employees
+WHERE salary > (
+    SELECT AVG(salary)
+    FROM employees
+);
+
 -- Chetan Urf Ishant 
 
 
