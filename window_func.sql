@@ -46,6 +46,11 @@ SUM() / AVG() – running totals or moving averages
 Window functions are powerful for analytics, reporting, cumulative sums, and comparing each row with others in the same partition, while still retaining individual row details.
 */
 
+--Window functions in SQL perform calculations across a set of rows related to the current row without collapsing the result into a single row like aggregate functions do. 
+--They use the OVER() clause to define the window of rows for computation. 
+--Common examples include ROW_NUMBER(), RANK(), DENSE_RANK(), and SUM() OVER(). 
+--Window functions are useful for tasks like ranking, running totals, and comparing values within partitions of data.
+
 
 -- Window functions are SQL functions that perform calculations across a set of rows related to the current row while retaining individual row details
 
