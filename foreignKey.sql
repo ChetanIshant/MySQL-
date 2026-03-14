@@ -2,6 +2,8 @@
 -- defination : A foreign key is a column that creates a link between two tables. It ensures that the value in one table must match a value in another table.
 -- imp: This is used to maintain data integrity between related data
 
+--A foreign key in SQL is a column in one table that references the primary key of another table to maintain referential integrity between them.
+
 -- created a table name addresses with foreign key
 CREATE TABLE addresses (
 id INT AUTO_INCREMENT PRIMARY KEY,
