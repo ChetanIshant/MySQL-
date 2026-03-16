@@ -1,3 +1,9 @@
+/*
+Constraints in SQL are rules applied to table columns to enforce data integrity and ensure the accuracy and reliability of stored data. 
+Common constraints include PRIMARY KEY (uniquely identifies each record), FOREIGN KEY (maintains relationships between tables), 
+NOT NULL (prevents empty values), UNIQUE (ensures all values are different), CHECK (validates conditions), and DEFAULT (assigns a default value when none is provided).
+*/
+
 CREATE TABLE newyear_data (roll_no INT PRIMARY KEY, email VARCHAR(100) UNIQUE);
 CREATE TABLE newyear_data (roll_no INT PRIMARY KEY, name VARCHAR(100) NOT NULL);
 ALTER TABLE newyear_data ADD CONSTRAINT chk_dob CHECK (date_of_birth > '2000-01-01'); 
