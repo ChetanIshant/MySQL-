@@ -24,4 +24,10 @@ SQL functions are mainly classified into two types: Single-row functions and Agg
 Single-row functions operate on each row individually (e.g., UPPER(), LOWER(), ROUND()), 
 while aggregate functions work on multiple rows and return a single value (e.g., SUM(), COUNT(), AVG(), MAX(), MIN()). 
 They are commonly used with SELECT, WHERE, and GROUP BY clauses to process and analyze data efficiently.
+
+
+SQL functions are predefined or user-defined operations that take input values, process them, and return a result. 
+They are used to perform calculations and manipulate data. 
+Functions are mainly of two types: aggregate functions (like COUNT, SUM) that work on multiple rows, 
+and scalar functions (like UPPER, ROUND) that operate on individual values.
 */
