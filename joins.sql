@@ -57,6 +57,12 @@ WHERE salary > (
     FROM employees
 );
 
+/*
+SQL joins combine rows from multiple tables based on related columns, enabling relational data retrieval. 
+Common types include INNER JOIN (matching records), LEFT JOIN (all left + matched right), 
+RIGHT JOIN, and FULL JOIN. Joins optimize data analysis by reducing redundancy and allowing efficient querying across normalized database structures.
+*/
+
 -- Chetan Urf Ishant 
 
 
