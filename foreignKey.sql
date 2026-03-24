@@ -87,6 +87,11 @@ FROM Employee e
 JOIN Department d
 ON e.dept_id = d.dept_id;
 
+A foreign key in MySQL is a database constraint used to establish and enforce a relationship between two tables. 
+It links a column in one table to the primary key of another, ensuring referential integrity by preventing invalid or orphaned records. 
+Foreign keys help maintain data consistency, especially in relational database designs. 
+They also support cascading actions such as ON DELETE and ON UPDATE, which automatically propagate changes across related tables. 
+By using foreign keys, developers can design structured, reliable, and normalized databases that reflect real-world relationships between entities.
 */
 
 -- Chetan Urf Ishant
