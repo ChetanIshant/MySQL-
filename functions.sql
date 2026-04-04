@@ -15,6 +15,28 @@ SELECT roll_no, MOD(roll_no, 2) AS remainder FROM newyear_data;
 Select name,gender, IF(gender='Female','Yes','No') AS is_female from newyear_data;
 
 
+--Calculate total salary with bonus:
+CREATE FUNCTION calculate_total_salary(
+    base_salary DECIMAL(10,2),
+    bonus_percent DECIMAL(5,2)
+)
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN base_salary + (base_salary * bonus_percent / 100);
+END;
+
+--Calculate Discounted Price:
+CREATE FUNCTION calculate_discount(
+    price DECIMAL(10,2),
+    discount_percent DECIMAL(5,2)
+)
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN price - (price * discount_percent / 100);
+END;
+
 -- Covered the functions of SQL which are widely used.
 
 /*
