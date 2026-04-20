@@ -47,6 +47,13 @@ For instance, it can be used to display only those departments whose total salar
 GROUP BY in SQL is used to combine rows that share common values and apply aggregate functions like COUNT, SUM, 
 or AVG to each group. HAVING filters the grouped results based on aggregate conditions. 
 While WHERE filters rows before grouping, HAVING works after aggregation, making it essential for summary-based filtering
+
+
+GROUP BY is used to group rows with the same values in specified columns and apply aggregate functions like COUNT, SUM, or AVG
 */
+
+SELECT department, COUNT(*) 
+FROM employees 
+GROUP BY department;
 
 --Chetan Urf Ishant
