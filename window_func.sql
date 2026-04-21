@@ -51,6 +51,11 @@ Window functions are powerful for analytics, reporting, cumulative sums, and com
 --Common examples include ROW_NUMBER(), RANK(), DENSE_RANK(), and SUM() OVER(). 
 --Window functions are useful for tasks like ranking, running totals, and comparing values within partitions of data.
 
+function_name() OVER (
+    PARTITION BY column
+    ORDER BY column
+)
+
 
 -- Window functions are SQL functions that perform calculations across a set of rows related to the current row while retaining individual row details
 
