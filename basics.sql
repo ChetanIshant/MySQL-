@@ -4,6 +4,8 @@ MySQL Workbench is a visual tool for database architects, developers, and DBAs.
 A Database Management System (DBMS) is software that interacts with end users, applications, and the database itself to capture and analyze data.
 
 SQL (Structured Query Language) is a standard language used to manage and manipulate relational databases. 
+SQL basics: querying databases using SELECT, filtering with WHERE, sorting with ORDER BY, joining tables, aggregating with GROUP BY, 
+and performing CRUD operations (INSERT, UPDATE, DELETE) on structured data.
 It enables users to perform operations such as data retrieval (SELECT), insertion (INSERT), updating (UPDATE), and deletion (DELETE). 
 SQL also supports schema definition through DDL commands like CREATE and ALTER, and transaction control using COMMIT and ROLLBACK. 
 It operates on structured data organized in tables with rows and columns.
